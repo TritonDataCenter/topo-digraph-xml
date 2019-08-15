@@ -70,6 +70,10 @@ pub struct TopoVerticesXML {
     pub vertex: Vec<TopoVertexXML>,
 }
 
+//
+// This is the top-level structure that should be used when deserializing the
+// XML output produced by sastopo -x.
+//
 #[derive(Debug, Serialize, Deserialize)]
 #[serde(rename = "topo_digraph")]
 pub struct TopoDigraphXML {

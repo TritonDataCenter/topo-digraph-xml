@@ -7,5 +7,5 @@ or by leveraging the topo_digraph_serialize() interface in libtopo.
 
 **NOTE**: Both the ```sastopo``` tool and the ```topo_digraph_serialize()``` interface
 are only available in the development "sastopo" branch of
-[git://github.com/illumos-joyent](git://github.com/illumos-joyent).
+[git://github.com/joyent/illumos-joyent](git://github.com/joyent/illumos-joyent).
 

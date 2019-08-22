@@ -10,6 +10,9 @@ extern crate serde_derive;
 extern crate serde;
 extern crate serde_xml_rs;
 
+pub const PG_NAME: &'static str = "property-group-name";
+pub const PG_VALS: &'static str = "property-values";
+
 #[derive(Debug, Serialize, Deserialize)]
 #[serde(rename = "nvpair")]
 pub struct NvlistXmlArrayElement {

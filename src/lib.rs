@@ -12,6 +12,9 @@ extern crate serde_xml_rs;
 
 pub const PG_NAME: &'static str = "property-group-name";
 pub const PG_VALS: &'static str = "property-values";
+pub const PG_NAME_PROTOCOL: &'static str = "protocol";
+pub const PROP_NAME: &'static str = "property-name";
+pub const PROP_VALUE: &'static str = "property-value";
 
 #[derive(Debug, Serialize, Deserialize)]
 #[serde(rename = "nvpair")]

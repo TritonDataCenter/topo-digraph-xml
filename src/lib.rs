@@ -86,6 +86,8 @@ pub struct TopoDigraphXML {
     #[serde(rename = "fmri-scheme")]
     pub scheme: String,
     pub nodename: String,
+    #[serde(rename = "product-id")]
+    pub product_id: String,
     #[serde(rename = "os-version")]
     pub os_version: String,
     pub timestamp: String,

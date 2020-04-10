@@ -36,7 +36,6 @@ pub struct NvpairXML {
     #[serde(rename = "type")]
     pub nvtype: Option<String>,
     pub value: Option<String>,
-    pub nelem: Option<String>,
     #[serde(rename = "nvpair")]
     pub nvpair_elements: Option<Vec<NvpairXmlArrayElement>>,
     #[serde(rename = "nvlist")]
@@ -52,7 +51,6 @@ pub struct TopoEdgeXML {
 #[derive(Debug, Serialize, Deserialize)]
 #[serde(rename = "outgoing-edges")]
 pub struct TopoOutgoingEdgesXML {
-    pub nelem: String,
     #[serde(rename = "edge")]
     pub edges: Vec<TopoEdgeXML>,
 }
@@ -72,7 +70,6 @@ pub struct TopoVertexXML {
 #[derive(Debug, Serialize, Deserialize)]
 #[serde(rename = "nvpair")]
 pub struct TopoVerticesXML {
-    pub nelem: String,
     pub vertex: Vec<TopoVertexXML>,
 }
 

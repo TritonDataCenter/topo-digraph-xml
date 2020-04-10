@@ -1,6 +1,6 @@
 [package]
 name = "topo_digraph_xml"
-version = "0.9.4"
+version = "0.9.5"
 authors = ["Rob Johnston <rob.johnston@joyent.com>"]
 license = "MIT"
 
